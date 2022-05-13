@@ -19,7 +19,7 @@ namespace BowlingGameLib
                     {
                         if (rolls[rollIndex]==10)
                         {
-                            score += rolls[rollIndex] + rolls[rollIndex + 1]+rolls[rollIndex+2];
+                            score += rolls[rollIndex] + rolls[rollIndex + 1] + rolls[rollIndex+2];
 
                             rollIndex++;
                         }
